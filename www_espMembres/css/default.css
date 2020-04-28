@@ -1,0 +1,111 @@
+html, body{
+    height:100%;
+}
+
+body{
+    background-image: url(../img/image.jpg);
+    margin:0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.login{
+    width: 325px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid rgba(0, 0, 0, .65);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    margin: 300px auto;
+}
+
+.login h1{
+    margin:0;
+    font-size: 2em;
+}
+
+.login h4{
+    font-weight: normal;
+    padding: 10px;
+    background-color: #fff3cd;
+    color:#856404;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+/*Les inputs on leur police, il faut penser à la changer*/
+.login input{
+    font-family: inherit;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    font-size: 0.85em;
+    border-radius: 5px;
+}
+
+.login input[type="text"]{
+    margin-bottom: 5px;
+}
+
+.login input[type="password"]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login input[type="submit"]{
+    width: 50%;
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 0 2px 0 rgba(0, 55, 135);
+    font-size: 1em;
+    margin: 20px 0 5px 0;
+    border-radius: 5px;
+}
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+/*Permet de faire un effet de bouton qui descends*/
+.login input[type="submit"]:active{
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+}
+
+.alert{
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+}
+
+.error{
+    background-color: red;
+}
+
+.success{
+    background-color: green;
+}
+
+.info{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.disconnection a{
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
